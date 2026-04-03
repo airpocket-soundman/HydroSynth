@@ -43,10 +43,10 @@ constexpr float kWaveHeightNoiseFloorMm = 0.3f;
 constexpr float kBaselineAlpha = 0.02f;
 
 // 波紋周波数推定に使う最小周波数 [Hz]
-constexpr float kMinWaveFrequencyHz = 0.8f;
+constexpr float kMinWaveFrequencyHz = 0.4f;
 
 // 波紋周波数推定に使う最大周波数 [Hz]
-constexpr float kMaxWaveFrequencyHz = 8.0f;
+constexpr float kMaxWaveFrequencyHz = 16.0f;
 
 // FT に使う窓長サンプル数
 constexpr size_t kFftWindowSize = 64;
